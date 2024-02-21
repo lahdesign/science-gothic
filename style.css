@@ -1,12 +1,12 @@
 @font-face {
     font-family:"Tilt Prism";
-    src: url('./fonts/TiltPrism[HROT\,VROT].woff2') format('woff2');
+    src: url('./fonts/ScienceGothic[YOPQ\,slnt\,wdth\,wght]-2.woff2') format('woff2');
     font-weight: 0 1000;
     font-display:swap;
 }
 
 body{
-    font-family: "Tilt Prism", sans-serif;
+    font-family: "Science Gothic", sans-serif;
 }
 .variable-font{
     font-weight:1 ;
@@ -16,7 +16,7 @@ body{
     place-content: center;
     margin: 0;
     text-align: center;
-    font-variation-settings: "HROT" 100, "VROT" 1;
+    font-variation-settings: "YOPQ" 122, "slnt" 0, "wdth" 100, "wght" 100;
     transition: 
         font-weight 500ms,
         font-variation-settings 3s;
@@ -30,7 +30,7 @@ body{
     place-content: center;
     margin: 0;
     text-align: center;
-    font-variation-settings: 'CONT' 400, 'MIDL' 1000;
+    font-variation-settings: "YOPQ" 122, "slnt" 100, "wdth" 100, "wght" 900;
 }
 
 
